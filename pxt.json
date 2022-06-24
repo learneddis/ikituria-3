@@ -1,0 +1,38 @@
+{
+    "name": "Ikituria #3",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "tilemaps": "github:microsoft/pxt-tilemaps#v1.12.0",
+        "settings-blocks": "github:microsoft/pxt-settings-blocks#v1.0.0",
+        "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.1.0",
+        "arcade-story": "github:microsoft/arcade-storytelling#v1.0.3",
+        "Timers": "github:microsoft/arcade-timers#v1.1.0",
+        "arcade-text": "github:microsoft/arcade-text#v1.3.0",
+        "sprite-scaling": "*",
+        "Color Fading": "github:jwunderl/pxt-color#v0.2.2",
+        "sound effects": "github:klausw3/pxt-sound-effects#v1.1.0",
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.0.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "1.8.26",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj"
+}
