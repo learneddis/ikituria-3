@@ -15,6 +15,7 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.npc, function (sprite, otherSpri
             scene.cameraFollowSprite(Players[0])
             Playerstats[6] = 0
             Playerstats[5] = 0
+            Playerstats[5] = 0
         })
     }
     if (controller.A.isPressed()) {
